@@ -1,0 +1,30 @@
+body {
+  background: rgb(216, 222, 216);
+        }
+             h1 {
+                    text-align: center;
+                    }
+                    
+                    
+.heading 
+        {color: rgb(216, 224, 216); 
+          background-color:  rgb(131, 143, 139);  
+       background-image: url(https://media.gearweare.net/wp-content/uploads/2019/06/ramrod-key.jpg  );
+       background-position: center;
+    border-style: solid;
+    color: rgb(255, 251, 0)    ;
+    text-align: center;
+    
+    }
+    
+    p { font-size: 1em  ;
+
+    }            
+    .list {
+        list-style-type:upper-roman; 
+        text-align:left;
+    }
+    .link {
+        text-decoration: none;
+        text-transform: uppercase;
+    }

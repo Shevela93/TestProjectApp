@@ -1,0 +1,35 @@
+.heater {
+    background-image: url(../exopets/img/fon.jpg);
+    background-image:image-set(12);
+}
+
+  
+        
+       
+
+
+
+.button2{
+    color: rgb(8, 108, 15) ;
+    border-style: 1px;
+     border:solid;
+     border-radius:20px;
+     border-color: rgb(12, 39, 39);
+      width: auto;
+       height:auto; 
+        text-decoration: none;
+         margin: 2px;
+         padding: 4px;
+         
+        
+}
+img[alt] {
+    height: 80px;
+    width: auto;
+    padding: 10px;  
+}
+
+.buttom ul a:hover{
+    color: brown;
+    
+} 

@@ -1,0 +1,136 @@
+/*шрифт цвет размер не забываем про ;     */
+.heading {
+font-size: 15px;color:gray;
+font-family: 'Courier New', Courier, monospace; 
+text-align: center /*ТЕКСТ РАСПОЛОЖЕНИЕ ЦЕНТР*/
+}
+/*_---------------цвет ТЕЛА*---------------------------------------*/
+body {
+    background-color: rgb(178, 212, 211);
+}
+/*краткое описание */
+h3 {
+    font-size: 18px;color: #000000; /* размер, цвет*/
+    font-weight: 400; /*насыщеность*/
+    background-color: #eaeaea; /*ЦВЕТ ФОНА/*/
+
+}
+.heading1 {
+    font-size: 14px; color: #707070 ;
+    font-style:italic ;
+    line-height:16px
+}
+/*подробное описание */
+.heading2 {
+    font-size:16pxd  ;color:#484343 ;
+    font-weight: 400;
+    line-height: 24px;
+}
+/*[характеристики товара */
+.h {
+    font-size: 15px; color:rgba(9, 31, 9, 0.2);
+    text-align: right;
+    font-weight: 800;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; /*шрифт стили */
+    background-color:white;
+    border: solid 1px;color: #000;
+}
+/*---   --- */
+.menu > li{
+  
+    width: 60px;
+   height: 25px;  
+   border: solid 1px ; color: #000; /* борты солид это рамка*/
+   list-style-type: none; /* убрать точки в ul li */
+   text-align: center;
+   
+}
+/*---цвет ссылки при наведение мыши   --- */
+.glmenu li a:hover {
+    color: rgb(255, 0, 200);
+}
+/*--- оформление( высота , ширина борта 1 пиксель, цвет черный, без поччеркивания,текст по центру   --- */
+.glmenu li{
+    width: 150px;
+    height: 40px;
+    border:solid 1px; color: #000;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+   /*---   --- */ 
+}.glmenu li a:active {
+    color: rgb(255, 0, 106);
+}
+/*--- загругление первого ребенка   --- */
+.glmenu li:first-child {
+                            border-radius: 15px;
+                            border-top-right-radius: 15px;
+
+}
+/*--- загругление последнего ребенка   --- */
+.glmenu :last-child {
+   border-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/*---цвета ссылок   --- */
+.glmenu li:nth-child(1) a {
+    background-color: orange   ;
+    text-decoration: none;
+    
+}
+.glmenu li:nth-child(2) a {
+    background-color: rgb(212, 234, 8)   ;
+    text-decoration: none;
+}
+.glmenu li:nth-child(3) a {
+    background-color: rgb(103, 244, 10)   ;
+    text-decoration: none;
+}
+.glmenu li:nth-child(4) a {
+    background-color: rgb(20, 223, 196)   ;
+    text-decoration: none;
+}
+.glmenu li:nth-child(5) a {
+    background-color: rgb(17, 196, 109)   ;
+    text-decoration: none;
+}
+.glmenu li:nth-child(6) a {
+    background-color: rgb(21, 0, 255)   ;
+    text-decoration: none;
+}
+.glmenu li:nth-child(7) a {
+    background-color: rgb(255, 165, 0)   ;
+    text-decoration: none;
+}
+.menu li:nth-child(3)::after {
+    content: "new" ;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+
+}
+/*--- при на ведении на ссылки гл меню появляются ">>>>" befor- сначала текста, after в конце   --- */
+.glmenu li:hover::after {
+    content: ">>>>" ;
+    color: rgb(0, 0, 0);
+    
+}
+.table{
+    border:solid 1px; color: #000;
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+}
+.table td {
+    border:solid 1px; color: #000;
+    padding-left: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+.three{
+    background-color: #ecdd00;
+}
+
+
+
